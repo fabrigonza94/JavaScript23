@@ -3,11 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Carrito de Compras</title>
+    <style>
+        /* Estilos opcionales para mejorar la presentación */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+        }
+
+        #cart {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            cursor: pointer;
+            margin-right: 5px;
+        }
+    </style>
 </head>
 <body>
-    
 
-    <script src="preentrega2.js"></script>
+    <h1>Carrito de Compras</h1>
+
+    <div id="cart">
+        <h2>Carrito</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0.00</span></p>
+        <button id="empty-cart">Vaciar Carrito</button>
+    </div>
+
+    <div id="products">
+        <h2>Productos</h2>
+        <div class="product" data-id="1" data-name="Producto 1" data-price="10.00">
+            <p>Producto 1 - $10.00</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+        <div class="product" data-id="2" data-name="Producto 2" data-price="20.00">
+            <p>Producto 2 - $20.00</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+    </div>
+
+    <script src="preentrega3.js"></script>
 </body>
 </html>

@@ -1,22 +1,4 @@
 
-//PRE-ENTREGA 2.
-
-/*function productos(marca, nombre, precio) {
-    this.marca = marca;
-    this.nombre = nombre;
-    this.precio = precio
-}
-
-const producto1 (marca: `Ferplast` , nombre: `Transportadora`, precio: 1500);
-const producto2 (marca: `Ferplast` , nombre: `Transportadora`, precio: 1500);
-const producto3 (marca: `Ferplast` , nombre: `Transportadora`, precio: 1500);
-const producto4 (marca: `Ferplast` , nombre: `Transportadora`, precio: 1500);
-const producto5 (marca: `Ferplast` , nombre: `Transportadora`, precio: 1500);
-const producto6 (marca: `Ferplast` , nombre: `Transportadora`, precio: 1500);
-const producto7 (marca: `Ferplast` , nombre: `Transportadora`, precio: 1500);
-const producto8 (marca: `Ferplast` , nombre: `Transportadora`, precio: 1500);
-*/
-
 
 // Array de productos predefinidos
 const productos = [
