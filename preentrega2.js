@@ -1,7 +1,7 @@
 
 
 // Array de productos predefinidos
-const productos = [
+/*const productos = [
     { nombre: `Transportadora`, precio: 1500},
     { nombre: `Peine para pelos`, precio: 350 },
     { nombre: `Pelota`, precio: 100 },
@@ -81,4 +81,4 @@ const productos = [
       }
     }
   }
-  ejecutarCarrito ();
+  ejecutarCarrito (); */
